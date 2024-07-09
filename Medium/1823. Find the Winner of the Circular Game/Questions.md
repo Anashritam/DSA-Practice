@@ -33,9 +33,8 @@ Explanation: The friends leave in this order: 5, 4, 6, 2, 3. The winner is frien
 1 <= k <= n <= 500
 
 # ***Solution:***
-  <button style="background-color:green; color:white; border:none; padding:10px 20px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; margin:4px 2px; cursor:pointer;" onclick="document.getElementById('solution').style.display = (document.getElementById('solution').style.display === 'none') ? 'block' : 'none';">
-    Show Solution
-</button>
+<details>
+  <summary style="font-family:Arial, sans-serif; font-size:14px; cursor:pointer;">Click here to see the solution</summary>
 <div style="border: 1px solid #000; padding: 5px; background-color: black;">
 <pre><code style="color: green;">
 import java.util.*;
@@ -57,6 +56,8 @@ class Solution {
 }
 </code></pre>
 </div>
+  <p style="margin-top:20px;"></p>
+</details>
   <p style="margin-top:20px;"></p>
 
 # *Vizualization:*
