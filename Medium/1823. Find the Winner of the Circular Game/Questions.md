@@ -31,3 +31,34 @@ Explanation: The friends leave in this order: 5, 4, 6, 2, 3. The winner is frien
 
 ## Constraints:
 1 <= k <= n <= 500
+
+# ***Solution:***
+<details>
+  <summary style="font-family:Arial, sans-serif; font-size:14px; cursor:pointer;">Click here to see the solution</summary>
+<div style="border: 1px solid #000; padding: 5px; background-color: black;">
+<pre><code style="color: green;">
+import java.util.*;
+class Solution {
+    public int findTheWinner(int n, int k) {
+        LinkedList<Integer> li = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            li.add(i, (i + 1));
+        }
+        int i = 0;
+        while (li.size() > 1) {
+            i = (i + k - 1) % li.size(); // Adjust index based on the current list size
+            // System.out.println("Removing: " + li.get(i));
+            li.remove(i);
+        }
+        int ele=li.get(0);
+        return(ele);
+}
+}
+</code></pre>
+</div>
+  <p style="margin-top:20px;"></p>
+</details>
+  <p style="margin-top:20px;"></p>
+
+# *Vizualization:*
+
