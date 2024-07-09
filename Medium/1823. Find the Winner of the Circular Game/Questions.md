@@ -62,4 +62,5 @@ class Solution {
 
 # *Vizualization:*
 ![Visualization](https://github.com/Anashritam/DSA-Practice/blob/main/Medium/images/WhatsApp%20Image%202024-07-09%20at%2017.17.17_6ddbaa9b.jpg)
+# *Explaination:*
 ![Explaination](https://github.com/Anashritam/DSA-Practice/blob/main/Medium/images/WhatsApp%20Image%202024-07-09%20at%2017.17.17_ce7c3717.jpg)
