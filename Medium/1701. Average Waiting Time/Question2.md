@@ -1,9 +1,4 @@
 # ***1701. Average Waiting Time***
-There are n friends that are playing a game. The friends are sitting in a circle and are numbered from 1 to n in clockwise order. More formally, moving clockwise from the ith friend brings you to the (i+1)th friend for 1 <= i < n, and moving clockwise from the nth friend brings you to the 1st friend.
-
-The rules of the game are as follows:
-
-Start at the 1st friend.
 There is a restaurant with a single chef. You are given an array customers, where customers[i] = [arrivali, timei]:
 
 arrivali is the arrival time of the ith customer. The arrival times are sorted in non-decreasing order.
@@ -14,9 +9,7 @@ Return the average waiting time of all customers. Solutions within 10-5 from the
 
 ## **Example 1:**
 Input: customers = [[1,2],[2,5],[4,3]]
-
 Output: 5.00000
-
 Explanation:
 1) The first customer arrives at time 1, the chef takes his order and starts preparing it immediately at time 1, and finishes at time 3, so the waiting time of the first customer is 3 - 1 = 2.
 2) The second customer arrives at time 2, the chef takes his order and starts preparing it at time 3, and finishes at time 8, so the waiting time of the second customer is 8 - 2 = 6.
